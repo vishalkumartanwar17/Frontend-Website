@@ -1,0 +1,467 @@
+/** flex = display only flex. **/
+.flex {
+    display: flex;
+}
+
+/** flex-wrap = display flex and wrap on **/
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+/** flex-wrapfull = it means display= flex, justify-content= center, align-items= center and flex-wrap= wrap**/
+.flex-wrapfull {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/** flex-w-j = display flex and wrap on and justify-content center **/
+.flex-w-j {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/** fd-r = it means flex-direction in row wise **/
+.fd-r {
+    display: flex;
+    flex-direction: row;
+}
+
+/** fd-c = it means flex-direction in column wise **/
+.fd-c {
+    display: flex;
+    flex-direction: column;
+}
+
+/** inline = it means display is inline **/
+.inline-b {
+    display: inline-block;
+}
+
+/** flex-center = it means justify-content & align-items is center. **/
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/** flex-left = it means justify-content is left & align-item is center. **/
+.flex-left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+/** flex-sb = it means justify-content is space-between & align-item is center. **/
+.flex-sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/** flex-sa = it means justify-content is space-around & align-item is center. **/
+.flex-sa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/** flex-sa = it means justify-content is space-around & align-item is center. **/
+.flex-sa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/** fd-c = it means flex-direction in column wise **/
+.fd-c {
+    display: flex;
+    flex-direction: column;
+}
+
+/* h-100 = it means height - 100px */
+.h-100 {
+    height: 6.25rem;
+}
+
+/** p-8= padding (8px)**/
+.p-8 {
+    padding: 0.5rem;
+}
+
+/** p-10= padding (10px)**/
+.p-10 {
+    padding: 0.625rem;
+}
+
+/** p-15= padding (15px)**/
+.p-15 {
+    padding: 0.938rem;
+}
+
+/** p-10-15= padding (10px from top and bottom) (15px from rigth and left)**/
+.p-10-15 {
+    padding: 0.625rem 0.938rem;
+}
+
+/** p-40-20= padding (40px from top and bottom) (20px from rigth and left)**/
+.p-40-20 {
+    padding: 2.5rem 1.25rem;
+}
+
+/** ptb-8= padding top-bottom(8px)**/
+.ptb-8 {
+    padding: 0.5rem 0rem;
+}
+
+/** ptb-10= padding top-bottom(10px)**/
+.ptb-10 {
+    padding: 0.625rem 0rem;
+}
+
+/* ptb-50 = padding top-bottom (50px)  */
+.ptb-50 {
+    padding: 3.125rem 0;
+}
+
+/** ptb-100= padding top-bottom(100px)**/
+.ptb-100 {
+    padding: 6.25rem 0rem;
+}
+
+
+
+/** prl-15= padding right-left(15px)**/
+.prl-15 {
+    padding: 0rem 0.938rem;
+}
+
+/** prl-16= padding right-left(16px)**/
+.prl-16 {
+    padding: 0rem 1rem;
+}
+
+/** prl-32 = padding-right-left 32 px **/
+.prl-32 {
+    padding: 0rem 2rem;
+}
+
+/** mb-16 = margin-bottom 16 px **/
+.mb-16 {
+    margin-bottom: 1rem;
+}
+
+/** mb-24 = margin-bottom 24 px **/
+.mb-24 {
+    margin-bottom: 1.5rem;
+}
+
+/** mr-30 = margin-right 30 px **/
+.mr-30 {
+    margin-right: 1.875rem;
+}
+
+/** mtb-32 = margin-top-right 20 px **/
+.mtb-20 {
+    margin: 1.25rem 0rem;
+}
+
+/** mrl-32 = margin-right-left 32 px **/
+.mrl-32 {
+    margin: 0rem 2rem;
+}
+
+/** m-auto-48 = margin auto (from rigth-left) 48 px (bottom only) **/
+.m-auto-48 {
+    margin: auto auto 3rem;
+}
+
+/** m-12 = margin 12px **/
+.m-12 {
+    margin: 0.75rem;
+}
+
+/* m-75-150 = it means margin top-bottom(75px) right-left(150px) */
+.m-75-150 {
+    margin: 4.688rem 9.375rem;
+}
+
+/** m-auto = margin auto **/
+.m-auto {
+    margin: auto;
+}
+
+/** ptrbl-100-15= (padding top right bottom left- 100px - 15px) it means 6.25rem = 100px and 0.938rem = 15px**/
+ptrbl-100-15 {
+    padding: 6.25rem 0.938rem;
+}
+
+/** fs-30 = font size  - 30px **/
+.fs-30 {
+    font-size: 1.875rem;
+}
+
+/** fs-36 = font size  - 36px **/
+.fs-36 {
+    font-size: 2.25rem;
+}
+
+/** fs-16 = font size - 16px(1rem = 16px)**/
+.fs-16 {
+    font-size: 1rem;
+}
+
+/* fs-18 = fontsize-18px */
+.fs-18 {
+    font-size: 1.125rem;
+}
+
+/* fs-21 = fontsize-21px */
+.fs-21 {
+    font-size: 1.313rem;
+}
+
+/* fs-23 = fontsize-23px */
+.fs-23 {
+    font-size: 1.438rem;
+}
+
+/* fs-26 = fontsize-26px */
+.fs-26 {
+    font-size: 1.625rem;
+}
+
+/* b-2 = border(2px) */
+.b-2 {
+    border: 0.125rem solid black;
+}
+
+/* bb-3 = border-bottom(3px) */
+.bb-3 {
+    border-bottom: 0.188rem solid black;
+}
+
+/** td-n = text-decoration-none **/
+.td-n {
+    text-decoration: none;
+}
+
+/* cb = color black */
+.cb {
+    color: black;
+}
+
+/* cw = color white */
+.cw {
+    color: white;
+}
+
+/** bw = background white **/
+.bw {
+    background-color: white;
+}
+
+/** bb = background black **/
+.bb {
+    background-color: black;
+}
+
+/* b-first = it means background first(#faebd7) */
+.b-first {
+    background-color: #faebd7;
+}
+
+/* w-auto = width (auto) */
+.w-auto {
+    width: auto;
+}
+
+/* w-60 = width (60px) */
+.w-60 {
+    width: 3.75rem;
+}
+
+/* w-93 = width (93%) */
+.w-93 {
+    width: 93%;
+}
+
+/* mw-130 = max-width (130px) */
+.mw-130 {
+    max-width: 8.125rem;
+}
+
+/* mw-300 = max-width (300px) */
+.mw-300 {
+    max-width: 18.75rem;
+}
+
+/* mw-400 = max-width (400px) */
+.mw-400 {
+    max-width: 25rem;
+}
+
+/** w-45 = width 45% **/
+.w-45 {
+    width: 45%;
+}
+
+/** w-48 = width 48% **/
+.w-48 {
+    width: 48%;
+}
+
+/** cg-1 = column gap 1rem **/
+.cg-1 {
+    column-gap: 1rem;
+}
+
+/** cg-8 = column gap 0.5rem **/
+.cg-8 {
+    column-gap: 0.5rem;
+}
+
+/** cg-5 = column gap 0.31rem (5 px) **/
+.cg-5 {
+    column-gap: 0.31rem;
+}
+
+/** cg-24 = column gap 1.5rem (24 px) **/
+.cg-24 {
+    column-gap: 1.5rem;
+}
+
+/** cg-32 = column gap 2rem **/
+.cg-32 {
+    column-gap: 2rem;
+}
+
+/* lh-1-one = line height - 1.1 */
+.lh-1-one {
+    line-height: 1.1;
+}
+
+
+/* lh-1-half = line height - 1.5 */
+.lh-1-half {
+    line-height: 1.5;
+}
+
+/* lh-35 = line height - 35px */
+.lh-35 {
+    line-height: 2.188rem;
+}
+
+/* lh-66 = line height - 66px */
+.lh-66 {
+    line-height: 4.125rem;
+}
+
+/* fw-400 = font weight-400 */
+.fw-400 {
+    font-weight: 400;
+}
+
+/* fw-500 = font weight-500 */
+.fw-500 {
+    font-weight: 500;
+}
+
+/* fw-600 = font weight-600 */
+.fw-600 {
+    font-weight: 600;
+}
+
+/* fw-700 = font weight-700 */
+.fw-700 {
+    font-weight: 700;
+}
+
+/* fw-bold = font weight-bold */
+.fw-bold {
+    font-weight: bold;
+}
+
+/* fw-bolder = font weight-bolder */
+.fw-bolder {
+    font-weight: bolder;
+}
+
+/** fixed = it means position is fixed **/
+.fixed {
+    position: fixed;
+}
+
+/** fixed.br = it means position is fixed bottom(16px) right(0.5rem) **/
+.fixed-br {
+    position: fixed;
+    bottom: 1rem;
+    right: 0.5rem;
+}
+
+/* w-25 = it means width is 25% */
+.w-25 {
+    width: 25%;
+}
+
+/* w-32 = it means width is 32% */
+.w-32 {
+    width: 32%;
+}
+
+/* w-50 = it means width is 50% */
+.w-50 {
+    width: 50%;
+}
+
+/* w-70 = it means width is 70% */
+.w-70 {
+    width: 70%;
+}
+
+/** w-100 = width 100% **/
+.w-100 {
+    width: 100%;
+}
+
+/* fs-55 = font size -55px*/
+.fs-55 {
+    font-size: 3.4375rem;
+}
+
+/** obf-cov = object-fit = cover **/
+.obf-cov {
+    object-fit: cover;
+}
+
+/* ff-arc = it means font family - archivo */
+.ff-arc {
+    font-family: "Archivo", sans-serif;
+}
+
+/* ff-DM = it means font family - DM-Serif Display */
+.ff-DM {
+    font-family: "DM Serif Display", serif;
+}
+
+/* ff-as = it means font family - -apple system */
+.ff-as {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* ta-j = text-align justify */
+.ta-j {
+    text-align: justify;
+}
+
+/* ta-c = text-align center */
+.ta-c {
+    text-align: center;
+}
+
+/* cp = cursor pointer */
+.cp {
+    cursor: pointer;
+}
